@@ -159,8 +159,8 @@ public class IssuedBooks extends AppCompatActivity {
     }
 
     private void sendEmailAlet(final String studentEmail, final String bookName, final String issuedDate, final String returnDate,final String author) {
-        final String email = "reminderapp01@gmail.com";
-        final String password = "reminder@900";
+        final String email = "Your Mail address";
+        final String password = "Mail Password";
         Properties properties =  new Properties();
         properties.put("mail.smtp.auth","true");
         properties.put("mail.smtp.starttls.enable","true");
